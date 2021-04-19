@@ -33,7 +33,7 @@ train_df = df[:-test_size]
 test_df = df[-test_size:]
 
 # CREATE DAMPED LOCAL TIME MODEL
-ets = DLTAggregated(
+dts = DLTFull(
     response_col=response_col,
     date_col=date_col,
     seasonality=52,
@@ -42,6 +42,6 @@ ets = DLTAggregated(
 )
 
 
-ets.fit(df=train_df)
-predicted_df = ets.predict(df=test_df)
+dts.fit(df=train_df)
+predicted_df = dts.predict(df=test_df)
 _ = plot_predicted_data(train_df, predicted_df, date_col, response_col, title='Prediction with DLT')
