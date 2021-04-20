@@ -1,10 +1,11 @@
 global-covid-data:
-
 https://covidtracking.com/data/download/all-states-history.csv
 
 states-covid-data:
-
 https://covid19.who.int/info/
+
+global-testing-data
+https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/testing/covid-testing-all-observations.csv
 
 states-vaccination-data:
 https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/us_state_vaccinations.csv
