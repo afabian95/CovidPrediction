@@ -1,5 +1,5 @@
 global-covid-data:
-https://covidtracking.com/data/download/all-states-history.csv
+https://covid19.who.int/info/
 
 states-covid-data:
 https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
@@ -17,4 +17,4 @@ states-vaccination-data:
 https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/us_state_vaccinations.csv
 
 old:
-https://covid19.who.int/info/
+https://covidtracking.com/data/download/all-states-history.csv
