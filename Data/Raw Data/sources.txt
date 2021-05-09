@@ -2,10 +2,19 @@ global-covid-data:
 https://covidtracking.com/data/download/all-states-history.csv
 
 states-covid-data:
-https://covid19.who.int/info/
+https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
 
-global-testing-data
+global-testing-data:
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/testing/covid-testing-all-observations.csv
+
+states-testing-data:
+https://data.opendatasoft.com/explore/dataset/testing-data-covid19-usa%40public/export/?disjunctive.state_name
+
+global-vaccination-data:
+https://github.com/owid/covid-19-data/edit/master/public/data/vaccinations/vaccinations.csv
 
 states-vaccination-data:
 https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/us_state_vaccinations.csv
+
+old:
+https://covid19.who.int/info/
